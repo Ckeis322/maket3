@@ -1,0 +1,37 @@
+.main__container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 26px;
+}
+
+.main__title{
+    margin-top: 20px;
+    height: 48px;
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 36px;  
+    display: flex;
+    justify-content: center;
+}
+
+.main__info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+}
+
+.main__img{
+    padding-top: 32px;
+    padding-left: 0px;
+    padding-bottom: -0px;
+}
+
+.main__title0{
+    margin-top: -9px;
+    padding-left: 8px;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1%;
+}
